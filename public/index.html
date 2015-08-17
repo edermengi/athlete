@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en" ng-app="athleteApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" type="image/png" href='assets/images/favicon.png")'>
+
+    <title>Атлет</title>
+
+    <link rel="stylesheet" media="screen" href='assets/stylesheets/third-party/bootstrap/bootstrap.min.css'>
+    <link rel="stylesheet" media="screen" href='assets/stylesheets/main.css'>
+
+</head>
+
+<body>
+<div ng-controller="HeaderCtrl">
+    <div ng-include src="'assets/views/header.html'"></div>
+</div>
+
+<div class="container-fluid" ng-view>
+</div>
+
+
+<script src='assets/javascripts/third-party/angular/angular.min.js' type="text/javascript"></script>
+<script src='assets/javascripts/third-party/angular/angular-resource.min.js' type="text/javascript"></script>
+<script src='assets/javascripts/third-party/angular/angular-route.min.js' type="text/javascript"></script>
+<script src='assets/javascripts/third-party/jquery/jquery.min.js' type="text/javascript"></script>
+<script src='assets/javascripts/third-party/bootstrap/bootstrap.min.js' type="text/javascript"></script>
+
+<script src='assets/javascripts/app.js' type="text/javascript"></script>
+<script src='assets/javascripts/controllers.js' type="text/javascript"></script>
+
+</body>
+</html>
