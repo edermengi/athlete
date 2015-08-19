@@ -1,6 +1,7 @@
 var athleteApp = angular.module('athleteApp', [
     'ngRoute',
-    'athleteControllers'
+    'appControllers',
+    'appServices'
 ]);
 
 athleteApp.config(function($routeProvider) {

@@ -1,6 +1,6 @@
-var athleteControllers = angular.module('athleteControllers', []);
+var appControllers = angular.module('appControllers', []);
 
-athleteControllers.controller('CaloriesCtrl',
+appControllers.controller('CaloriesCtrl',
     function ($scope, $http) {
 //        $http.get('phones/phones.json').success(function(data) {
 //          $scope.phones = data;
@@ -10,7 +10,7 @@ athleteControllers.controller('CaloriesCtrl',
     }
 );
 
-athleteControllers.controller('HeaderCtrl',
+appControllers.controller('HeaderCtrl',
     function ($scope, $http) {
     }
 );
